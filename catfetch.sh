@@ -44,7 +44,7 @@ info ()
   os=${os##[\"\']}
   os=${os%%[\"\']}
 
-  echo -e "$RESE$B$BOLD     $user@$HOSTNAME"
+  echo -e "$RESET$B$BOLD     $user@$HOSTNAME"
   echo 
   echo -e "$R$BOLD    User $RESET $BL$user"
   echo -e "$G$BOLD    OS   $RESET $BL$os"
